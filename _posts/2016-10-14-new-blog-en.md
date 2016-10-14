@@ -14,7 +14,7 @@ categories:
 twitter_text: 'xuhongxu.com Registered! Welcome to my blog!'
 ---
 
-Someone owned this domain emailed me earlier this year to express his willing to transfer the domain to me and ask for a reasonable price.
+Someone owning this domain emailed me earlier this year to express his willing to transfer the domain to me and ask for a reasonable price.
 
 I didn't reply. But yesterday, I found it was on sale and didn't have an owner. So I bought it immediately. Haha, if I had bought it from that person, I might pay a lot more.
 
