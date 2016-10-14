@@ -54,12 +54,6 @@ projects:
   - name: Tagexing - public bike management system (php/laravel)
     url: https://github.com/xuhongxu96/tagexing2
 coursework:
-  - name: Data Structure
-    url: https://github.com/xuhongxu96/Data-Structure-Course
-  - name: Algorithm Design
-    url: https://github.com/xuhongxu96/Algorithm-Design-Course
-  - name: Computer Graphics
-    url: https://github.com/xuhongxu96/Computer-Graphics-Course
   - name: Operating System
     url: https://github.com/xuhongxu96/Operating-System-Course
   - name: Info Retrieval
@@ -68,5 +62,11 @@ coursework:
     url: https://github.com/xuhongxu96/Compiler-Theory-Course
   - name: Image Processing
     url: https://github.com/xuhongxu96/Image-Processing-Course
+  - name: Computer Graphics
+    url: https://github.com/xuhongxu96/Computer-Graphics-Course
+  - name: Algorithm Design
+    url: https://github.com/xuhongxu96/Algorithm-Design-Course
+  - name: Data Structure
+    url: https://github.com/xuhongxu96/Data-Structure-Course
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
