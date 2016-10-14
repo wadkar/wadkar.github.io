@@ -15,4 +15,10 @@ description: "Some description about Victor Igor..."
 	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
 	    {% endfor %}
 	</ul>
+	
+	<ul class="recent">
+		{% for project in site.coursework %}
+	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
+	    {% endfor %}
+	</ul>
 </div>
