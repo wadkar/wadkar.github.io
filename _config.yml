@@ -1,7 +1,7 @@
 # Site settings
 title: 旭旭
 description: "众人皆醒而我独醉 ..."
-baseurl: "/" # the subpath of your site
+baseurl: "" # the subpath of your site
 url: "http://xuhongxu.com"
 
 # User settings
