@@ -10,7 +10,6 @@ user_title: Hongxu Xu
 email: xuhongxu96@gmail.com
 twitter_username: Xuhongxu_it
 github_username:  xuhongxu96
-gplus_username:  
 disqus_username: xuhongxu-it
 
 # Build settings
@@ -44,8 +43,6 @@ projects:
     url: https://github.com/xuhongxu96/BNU-Xiaoya
   - name: regex2dfa (python)
     url: https://github.com/xuhongxu96/regex2dfa
-  - name: Tagexing - public bike management system (php/laravel)
-    url: https://github.com/xuhongxu96/tagexing2
   - name: BNU-Schoolwork-Assist (python)
     url: https://github.com/xuhongxu96/BNU-Schoolwork-Assist
   - name: Qt-BNU-Gateway (qt)
@@ -54,5 +51,22 @@ projects:
     url: https://github.com/xuhongxu96/Web-BNU-Gateway
   - name: BNU-Media (web)
     url: https://github.com/xuhongxu96/BNU-Media
+  - name: Tagexing - public bike management system (php/laravel)
+    url: https://github.com/xuhongxu96/tagexing2
+coursework:
+  - name: Data Structure
+    url: https://github.com/xuhongxu96/Data-Structure-Course
+  - name: Algorithm Design
+    url: https://github.com/xuhongxu96/Algorithm-Design-Course
+  - name: Computer Graphics
+    url: https://github.com/xuhongxu96/Computer-Graphics-Course
+  - name: Operating System
+    url: https://github.com/xuhongxu96/Operating-System-Course
+  - name: Info Retrieval
+    url: https://github.com/xuhongxu96/Info-Retrieval-Course
+  - name: Compiler Theory
+    url: https://github.com/xuhongxu96/Compiler-Theory-Course
+  - name: Image Processing
+    url: https://github.com/xuhongxu96/Image-Processing-Course
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
