@@ -33,12 +33,12 @@ $$ J(\theta_0, \theta_1) = \dfrac {1}{2m} \displaystyle \sum _{i=1}^m \left ( \h
 
 ## 多特征变量
 
-为了便于表示多特征变量时的各个参数和特征变量，引入一下标记：
+为了便于表示多特征变量时的各个参数和特征变量，引入以下标记：
 
 $$
 \begin{align*}
-x_j^{(i)} &= \text{特征 } j \text{ 的值（在第 }i^{th}\text{ 个训练数据中）} \newline
-x^{(i)}& = \text{列向量（在第 }i^{th}\text{ 个训练数据中）} \newline
+x_j^{(i)} &= \text{特征 } j \text{ 的值（在 }i^{th}\text{ 个训练数据中）} \newline
+x^{(i)}& = \text{一条数据中所有特征的值组成的列向量（在 }i^{th}\text{ 个训练数据中）} \newline
 m &= \text{训练数据样本大小（个数）} \newline
 n &= \left| x^{(i)} \right| ; \text{(特征数量)} 
 \end{align*}
@@ -46,10 +46,10 @@ $$
 
 ### 回归函数
 
-如果有n个特征，则为
 $$h_\theta (x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_3 + \cdots + \theta_n x_n$$
 
 矩阵形式为
+
 $$
 \begin{align*}
 h_\theta(x) =
@@ -70,8 +70,10 @@ $$
 
 $$ J(\theta) = \dfrac {1}{2m} \displaystyle \sum_{i=1}^m \left (h_\theta (x^{(i)}) - y^{(i)} \right)^2 $$
 
-请回顾之前引入的标记，这里的$$x^{(i)}$$是一个列向量，
+乍一看和单特征变量的形式几乎一样，但请回顾之前引入的标记，这里的$$x^{(i)}$$是一个列向量，可不只是一个数。
 
-矩阵形式为
+向量化形式为
 
 $$ J(\theta) = \dfrac {1}{2m} (X\theta - \vec{y})^{T} (X\theta - \vec{y}) $$
+
+其中$$\vec{y}是由所有的y值组成的向量。
