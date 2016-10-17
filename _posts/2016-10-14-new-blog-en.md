@@ -4,13 +4,12 @@ title:  "New Domain, New Blog"
 image: ''
 date:   2016-10-14 14:29:00
 tags:
-- new
+- notice
 - blog
-- domain
 - en
 description: 'xuhongxu.com Registered! And I will set up my blog here using this vim-like theme. Wonderful!'
 categories:
-- Misc
+- Notice
 twitter_text: 'xuhongxu.com Registered! Welcome to my blog!'
 ---
 
