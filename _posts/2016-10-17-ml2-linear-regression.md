@@ -4,9 +4,9 @@ title:  "机器学习（二）线性回归"
 image: ''
 date:   2016-10-16 13:13:00
 tags:
+- computer science
 - machine learning
-- linear regression
-- introduction
+- regression
 description: '机器学习Coursera学习笔记：第二部分 线性回归'
 categories:
 - Machine Learning
