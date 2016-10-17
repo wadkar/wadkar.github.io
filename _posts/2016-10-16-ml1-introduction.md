@@ -4,8 +4,8 @@ title:  "机器学习（一）监督学习和非监督学习"
 image: ''
 date:   2016-10-16 13:13:00
 tags:
+- computer science
 - machine learning
-- introduction
 description: '机器学习Coursera学习笔记：第一部分 导论 监督学习和非监督学习'
 categories:
 - Machine Learning
