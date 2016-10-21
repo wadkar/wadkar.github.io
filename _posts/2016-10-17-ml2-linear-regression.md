@@ -82,12 +82,12 @@ $$ J(\theta) = \dfrac {1}{2m} (X\theta - \vec{y})^{T} (X\theta - \vec{y}) $$
 
 ## Octave/Matlab 代码实现
 
-{% highlight matlab %}
+```matlab
 function J = computeCost(X, y, theta)
   m = length(y); 
   J = 1 / (2 * m) * sum((X * theta - y) .^ 2);
 end
-{% endhighlight %}
+```
 
 ## 总结
 
