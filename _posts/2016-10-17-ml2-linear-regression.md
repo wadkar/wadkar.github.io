@@ -65,7 +65,7 @@ x_1 \newline
 x_n
 \end{bmatrix}
 = \theta^T x
-\end{align*}>>
+\end{align*}
 $$
 
 ### 代价函数
