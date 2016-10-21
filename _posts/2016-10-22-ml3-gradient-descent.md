@@ -1,4 +1,4 @@
----
+ ---
 layout: post
 title:  "机器学习（二）梯度下降算法"
 image: ''
@@ -21,22 +21,18 @@ twitter_text: '机器学习Coursera学习笔记：第三部分 梯度下降算�
 
 ## 迭代公式
 
-$$
-\theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1)
-$$
+$$ \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1) $$
 
-$$\alpha$$为步进，在这里称为学习速率。
+$$\alpha$$ 为步进，在这里称为学习速率。
 
 ### 向量化公式
 
 $$
-\theta := \theta - \frac{\alpha}{m} X^{T} (X\theta - \vec{y})
-$$
+\theta := \theta - \frac{\alpha}{m} X^{T} (X\theta - \vec{y}) $$
 
 推导过程为：
 
-$$
-\theta := \theta - \alpha \nabla J(\theta)
+$$ \theta := \theta - \alpha \nabla J(\theta)
 
 其中
 
