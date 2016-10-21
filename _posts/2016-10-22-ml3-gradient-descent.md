@@ -18,7 +18,7 @@ twitter_text: '机器学习Coursera学习笔记：第三部分 梯度下降算�
 
 按字面意思理解，就是顺着斜坡一路向下，最终找到最低点。
 
-再具体一点说，就是通过求导求斜率，按照函数梯度以一定得步进不断迭代，最终到达最小值点。
+再具体一点说，就是通过求导求斜率，按照函数梯度以一定的步进不断迭代，最终到达最小值点。
 
 ## 迭代公式
 
@@ -31,7 +31,7 @@ $$\alpha$$ 为步进，在这里称为学习速率。
 $$
 \theta := \theta - \frac{\alpha}{m} X^{T} (X\theta - \vec{y}) $$
 
-推导过程为：
+#### 推导过程
 
 $$ \theta := \theta - \alpha \nabla J(\theta) $$
 
@@ -41,8 +41,6 @@ $$
 \nabla J(\theta)  = \begin{bmatrix}\frac{\partial J(\theta)}{\partial \theta_0}   \newline \frac{\partial J(\theta)}{\partial \theta_1}   \newline \vdots   \newline \frac{\partial J(\theta)}{\partial \theta_n} \end{bmatrix}
 $$
 
-其中
-
 $$
 \begin{align*}
 \; &\frac{\partial J(\theta)}{\partial \theta_j} &=&  \frac{1}{m} \sum\limits_{i=1}^{m}  \left(h_\theta(x^{(i)}) - y^{(i)} \right) \cdot x_j^{(i)} \newline
@@ -51,7 +49,7 @@ $$
 \end{align*}
 $$
 
-所以
+即
 
 $$
 \begin{align*}\; &\frac{\partial J(\theta)}{\partial \theta_j} &=& \frac1m  \vec{x_j}^{T} (X\theta - \vec{y}) \newline\newline\newline\; &\nabla J(\theta) & = & \frac 1m X^{T} (X\theta - \vec{y}) \newline\end{align*}
@@ -73,3 +71,11 @@ function theta = gradientDescent(X, y, theta, alpha, num_iters)
 	end
 end
 ```
+
+## 注意事项
+
+学习速率$$ \alpha $$的选择应适当：   
+- 过大则可能每次步进都跨过最小值点，以至于可能随梯度增大而远离最小值点；
+- 过小则可能步进极慢，效率低下
+
+为便于向量化表示，$$X$$向量第一列默认为全1。此时相当于$$\theta_0$$与1相乘。
