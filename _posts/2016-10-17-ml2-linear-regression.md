@@ -80,6 +80,15 @@ $$ J(\theta) = \dfrac {1}{2m} (X\theta - \vec{y})^{T} (X\theta - \vec{y}) $$
 
 其中$$\vec{y}$$是由所有的y值组成的向量。
 
+## Octave/Matlab 代码实现
+
+{% highlight matlab %}
+function J = computeCost(X, y, theta)
+  m = length(y); 
+  J = 1 / (2 * m) * sum((X * theta - y) .^ 2);
+end
+{% endhighlight %}
+
 ## 总结
 
 回归函数就是用于拟合训练数据样本的，训练得出的函数。显然训练的目的就是获得各个参数$$\theta_i$$，达到最佳拟合。而代价函数则是判断拟合好坏的标准。
