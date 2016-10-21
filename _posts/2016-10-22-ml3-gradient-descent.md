@@ -1,6 +1,6 @@
- ---
+---
 layout: post
-title:  "机器学习（二）梯度下降算法"
+title:  "机器学习（三）梯度下降算法"
 image: ''
 date:   2016-10-22 00:33:00
 tags:
@@ -12,6 +12,7 @@ categories:
 - Machine Learning
 twitter_text: '机器学习Coursera学习笔记：第三部分 梯度下降算法'
 ---
+
 ## 简述
 前面说到了线性回归，我们需要找到代价函数最小的相应参数。这里介绍一种寻找的方法，梯度下降法。
 
