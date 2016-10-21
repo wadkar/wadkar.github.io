@@ -17,8 +17,6 @@ facebook_username: hongxu.xu
 # Build settings
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
 permalink: /:title/
 
 
