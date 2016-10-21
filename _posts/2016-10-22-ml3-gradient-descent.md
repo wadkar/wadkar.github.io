@@ -33,36 +33,43 @@ $$
 
 推导过程为：
 
-$$ \theta := \theta - \alpha \nabla J(\theta)
+$$ \theta := \theta - \alpha \nabla J(\theta) $$
 
 其中
 
+$$
 \nabla J(\theta)  = \begin{bmatrix}\frac{\partial J(\theta)}{\partial \theta_0}   \newline \frac{\partial J(\theta)}{\partial \theta_1}   \newline \vdots   \newline \frac{\partial J(\theta)}{\partial \theta_n} \end{bmatrix}
+$$
 
 其中
 
+$$
 \begin{align*}
 \; &\frac{\partial J(\theta)}{\partial \theta_j} &=&  \frac{1}{m} \sum\limits_{i=1}^{m}  \left(h_\theta(x^{(i)}) - y^{(i)} \right) \cdot x_j^{(i)} \newline
 \; & &=& \frac{1}{m} \sum\limits_{i=1}^{m}   x_j^{(i)} \cdot \left(h_\theta(x^{(i)}) - y^{(i)}  \right) \newline
 \; & &=& \frac1m  \vec{x_j}^{T} (X\theta - \vec{y}) \newline\newline\newline\; &\nabla J(\theta) & = & \frac 1m X^{T} (X\theta - \vec{y}) \newline\end{align*}
 \end{align*}
+$$
 
 所以
 
+$$
 \begin{align*}\; &\frac{\partial J(\theta)}{\partial \theta_j} &=& \frac1m  \vec{x_j}^{T} (X\theta - \vec{y}) \newline\newline\newline\; &\nabla J(\theta) & = & \frac 1m X^{T} (X\theta - \vec{y}) \newline\end{align*}
+$$
 
 故向量化公式为
 
+$$
 \theta := \theta - \frac{\alpha}{m} X^{T} (X\theta - \vec{y})
 $$
 
 ## Octave/Matlab 代码实现
 
-{% highlight matlab %}
+```matlab
 function theta = gradientDescent(X, y, theta, alpha, num_iters)
 	m = length(y);
 	for iter = 1:num_iters
 		theta = theta - alpha / m * (X' * (X * theta - y));
 	end
 end
-{% endhighlight %}
+```
