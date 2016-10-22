@@ -1,18 +1,15 @@
 # Site settings
-title: 旭旭
-description: "众人皆醒而我独醉 ..."
+title: Sudarshan Wadkar
+description: "Sudarshan Wadkar's Homepage"
 baseurl: "" # the subpath of your site
-url: "http://xuhongxu.com"
+url: "http://www.wadkar.net"
 
 # User settings
-username: Hongxu Xu
-user_description: IT Boy
-user_title: Hongxu Xu
-email: xuhongxu96@gmail.com
-twitter_username: Xuhongxu_it
-github_username:  xuhongxu96
-disqus_username: xuhongxu-it
-facebook_username: hongxu.xu
+username: Sudarshan Wadkar
+user_description: Graduate Student
+user_title: Sudarshan Wadkar
+email: wadkar@cmu.edu
+github_username: wadkar
 
 # Build settings
 markdown: kramdown
@@ -41,34 +38,10 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: BNU-Xiaoya (android)
-    url: https://github.com/xuhongxu96/BNU-Xiaoya
-  - name: regex2dfa (python)
-    url: https://github.com/xuhongxu96/regex2dfa
-  - name: BNU-Schoolwork-Assist (python)
-    url: https://github.com/xuhongxu96/BNU-Schoolwork-Assist
-  - name: Qt-BNU-Gateway (qt)
-    url: https://github.com/xuhongxu96/Qt-BNU-Gateway
-  - name: Web-BNU-Gateway (web)
-    url: https://github.com/xuhongxu96/Web-BNU-Gateway
-  - name: BNU-Media (web)
-    url: https://github.com/xuhongxu96/BNU-Media
-  - name: Tagexing - public bike management system (php/laravel)
-    url: https://github.com/xuhongxu96/tagexing2
+  - name: Sample Project 1
+    url: https://github.com/wadkar/Project1
 coursework:
-  - name: Operating System
-    url: https://github.com/xuhongxu96/Operating-System-Course
-  - name: Info Retrieval
-    url: https://github.com/xuhongxu96/Info-Retrieval-Course
-  - name: Compiler Theory
-    url: https://github.com/xuhongxu96/Compiler-Theory-Course
-  - name: Image Processing
-    url: https://github.com/xuhongxu96/Image-Processing-Course
-  - name: Computer Graphics
-    url: https://github.com/xuhongxu96/Computer-Graphics-Course
-  - name: Algorithm Design
-    url: https://github.com/xuhongxu96/Algorithm-Design-Course
-  - name: Data Structure
-    url: https://github.com/xuhongxu96/Data-Structure-Course
+  - name: Sample Coursework 1
+    url: https://github.com/wadkar/Coursework1
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
